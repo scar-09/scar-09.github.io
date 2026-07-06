@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karan - Frontend & UI Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">Karan</a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <span class="nav-indicator">● Available</span>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="nav-mobile" id="navMobile">
+  <a href="#work">Work</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="hero-accent" aria-hidden="true"></span>
+      <p class="hero-eyebrow">Independent Web Designer / Frontend Developer</p>
+      <h1 class="hero-headline">
+        <span class="line-wrap"><span>Websites that</span></span>
+        <span class="line-wrap"><span>look sharp,</span></span>
+        <span class="line-wrap"><span>work smoothly,</span></span>
+        <span class="line-wrap"><span>and get remembered.</span></span>
+      </h1>
+      <p class="hero-desc">Landing pages, portfolio sites, and frontend interfaces - designed to convert and built to perform. Based online, available worldwide.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary" data-magnetic>View Selected Work</a>
+        <a href="#contact" class="btn btn-outline" data-magnetic>Start a Project</a>
+      </div>
+    </div>
+    <div class="hero-visual" id="heroVisual">
+      <div class="browser-card" data-index="0" style="--card-bg: #1a1d23; --card-tint: rgba(66, 133, 244, 0.12);">
+        <div class="browser-bar">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <span class="browser-url">northstar.dev</span>
+        </div>
+        <div class="browser-body">
+          <img src="SCREENSHOTS/northstar2.png" alt="Northstar screenshot" class="browser-img">
+        </div>
+      </div>
+      <div class="browser-card" data-index="1" style="--card-bg: #f0ebe3; --card-tint: rgba(193, 57, 43, 0.06);">
+        <div class="browser-bar">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <span class="browser-url">aylarenner.design</span>
+        </div>
+        <div class="browser-body">
+          <img src="SCREENSHOTS/renner2.png" alt="Ayla Renner screenshot" class="browser-img">
+        </div>
+      </div>
+      <div class="browser-card" data-index="2" style="--card-bg: #f5f3f0; --card-tint: rgba(46, 204, 113, 0.08);">
+        <div class="browser-bar">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <span class="browser-url">stackr.app</span>
+        </div>
+        <div class="browser-body">
+          <img src="SCREENSHOTS/stackr2.png" alt="Stackr screenshot" class="browser-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section id="work">
+    <div class="section-top">
+      <span class="section-label">Selected Work</span>
+      <span class="section-count">03</span>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-mockup">
+        <div class="mockup-bar">
+          <div class="mockup-dots"><span></span><span></span><span></span></div>
+          <span class="mockup-url">northstar.dev</span>
+        </div>
+        <div class="mockup-body">
+          <img src="SCREENSHOTS/northstar1.png" alt="Northstar screenshot" class="mockup-img">
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="project-num">01</span>
+          <span class="project-category">SaaS Landing Page</span>
+        </div>
+        <h2 class="project-name">Northstar</h2>
+        <p class="project-desc">Conversion-focused landing page for a fictional productivity tool. Dark theme, clean typography, clear product narrative.</p>
+        <div class="project-tags">
+          <span>Landing Page</span>
+          <span>Dark UI</span>
+          <span>Responsive</span>
+        </div>
+        <a href="https://scar-09.github.io/northstar-portfolio" target="_blank" rel="noopener" class="project-link">
+          View Live Site
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="project project-reverse reveal">
+      <div class="project-mockup">
+        <div class="mockup-bar">
+          <div class="mockup-dots"><span></span><span></span><span></span></div>
+          <span class="mockup-url">stackr.app</span>
+        </div>
+        <div class="mockup-body">
+          <img src="SCREENSHOTS/stackr1.png" alt="Stackr screenshot" class="mockup-img">
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="project-num">02</span>
+          <span class="project-category">Marketing Website</span>
+        </div>
+        <h2 class="project-name">Stackr</h2>
+        <p class="project-desc">Marketing page for a freelance payment tracking tool. Light, clean, approachable - typography carries the message.</p>
+        <div class="project-tags">
+          <span>Marketing Page</span>
+          <span>Light UI</span>
+          <span>Responsive</span>
+        </div>
+        <a href="https://scar-09.github.io/stackr-portfolio" target="_blank" rel="noopener" class="project-link">
+          View Live Site
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-mockup">
+        <div class="mockup-bar">
+          <div class="mockup-dots"><span></span><span></span><span></span></div>
+          <span class="mockup-url">aylarenner.design</span>
+        </div>
+        <div class="mockup-body">
+          <img src="SCREENSHOTS/renner1.png" alt="Ayla Renner screenshot" class="mockup-img">
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="project-num">03</span>
+          <span class="project-category">Portfolio Website</span>
+        </div>
+        <h2 class="project-name">Ayla Renner</h2>
+        <p class="project-desc">Minimal, editorial portfolio for a UX designer. Typography-led design with a restrained, refined visual language.</p>
+        <div class="project-tags">
+          <span>Portfolio</span>
+          <span>Typography</span>
+          <span>Minimal</span>
+        </div>
+        <a href="https://scar-09.github.io/landingpage-portfolio" target="_blank" rel="noopener" class="project-link">
+          View Live Site
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="services">
+    <div class="section-top">
+      <span class="section-label">Services</span>
+    </div>
+
+    <div class="services-list">
+      <div class="service-item reveal">
+        <span class="service-num">01</span>
+        <div class="service-content">
+          <div class="service-head-row">
+            <h3>Landing Pages</h3>
+          </div>
+          <p>Focused, responsive pages designed around a single goal - products, services, and ideas that need to convert.</p>
+        </div>
+      </div>
+      <div class="service-divider"></div>
+      <div class="service-item reveal">
+        <span class="service-num">02</span>
+        <div class="service-content">
+          <div class="service-head-row">
+            <h3>Portfolio Websites</h3>
+          </div>
+          <p>Clean personal and professional portfolio sites built to present creative work with clarity and visual intent.</p>
+        </div>
+      </div>
+      <div class="service-divider"></div>
+      <div class="service-item reveal">
+        <span class="service-num">03</span>
+        <div class="service-content">
+          <div class="service-head-row">
+            <h3>Frontend &amp; UI Improvements</h3>
+          </div>
+          <p>Responsive fixes, interface refinements, and frontend implementation for existing websites and web apps.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-scope reveal">
+      <span class="scope-line"></span>
+      <p><strong>Frontend-focused work only.</strong> Backend systems, authentication, databases, and payment integrations are outside the current service scope - which keeps projects focused, fast, and delivered on time.</p>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="section-top">
+      <span class="section-label">Process</span>
+    </div>
+
+    <div class="process-bar">
+      <div class="process-step reveal">
+        <div class="step-top">
+          <span class="step-num">01</span>
+          <span class="step-line"></span>
+        </div>
+        <h4>Discuss</h4>
+        <p>Your goals, audience, and the site's purpose.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-top">
+          <span class="step-num">02</span>
+          <span class="step-line"></span>
+        </div>
+        <h4>Design</h4>
+        <p>A concept focused on clarity and visual impact.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-top">
+          <span class="step-num">03</span>
+          <span class="step-line"></span>
+        </div>
+        <h4>Build</h4>
+        <p>Clean code, no bloat, fast results.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-top">
+          <span class="step-num">04</span>
+          <span class="step-line"></span>
+        </div>
+        <h4>Refine</h4>
+        <p>Review, adjust, and polish every detail.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-top">
+          <span class="step-num">05</span>
+          <span class="step-line"></span>
+        </div>
+        <h4>Deliver</h4>
+        <p>Live, responsive, built to perform.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="contact-eyebrow">Let's Work Together</p>
+      <h2 class="contact-heading">Have a page<br>in mind?</h2>
+      <p class="contact-desc">Tell me what you need, what it's for, and when you need it. I'll take it from there.</p>
+      <a href="mailto:ks2610094@gmail.com" class="btn btn-primary btn-large" data-magnetic>Email Me</a>
+      <div class="contact-links">
+        <a href="https://github.com/scar-09" target="_blank" rel="noopener">GitHub</a>
+        <span class="contact-sep">/</span>
+        <a href="#work" class="contact-back">Back to top</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>Karan - 2026</span>
+    <span>Built by hand.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
